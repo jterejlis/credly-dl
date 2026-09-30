@@ -14,7 +14,7 @@ npx credly-dl <username>
 npx credly-dl <username> > badges.json
 
 # Pipe into jq to inspect specific certifications
-npx credly-dl <username> | jq '.data[].badge_template.name'
+npx credly-dl <username> | jq '.[].badge_template.name'
 ```
 
 ## Related Projects
