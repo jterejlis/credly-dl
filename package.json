@@ -1,0 +1,13 @@
+{
+  "name": "credly-dl",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI tool to fetch verified Credly badges JSON",
+  "main": "index.js",
+  "bin": {
+    "credly-dl": "./index.js"
+  },
+  "type": "module",
+  "keywords": ["credly", "badges", "cli", "json", "credentials"],
+  "author": "Jakub Terejlis",
+  "license": "MIT"
+}
